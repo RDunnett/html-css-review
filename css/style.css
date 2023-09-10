@@ -1,8 +1,19 @@
 *{
     box-sizing: border-box;
+    background-color:blueviolet;
 }
+
 body{
     font-family: nunito;
     line-height: 1.5;
     color: #fff;
 }
+
+.team img{
+    filter: grayscale();
+}
+h1{
+    text-shadow: 2px, 2px, 4px color-mix(in srgb,black 75%);
+}
+
+
