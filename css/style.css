@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    background-color:blueviolet;
+    background-color: #6647A6;
 }
 
 body{
@@ -10,10 +10,19 @@ body{
 }
 
 .team img{
-    filter: grayscale();
+    filter: grayscale(100%);
 }
 h1{
-    text-shadow: 2px, 2px, 4px color-mix(in srgb,black 75%);
+    text-shadow: 2px, 2px, 4px rgba(0, 0, 0, 0.5);
 }
 
+.wrapper {
+    max-width: 1200px;
+    position:fixed;
+}
+
+.team {
+    background-color:#7251B5 ;
+    -ms-flex-align: center;
+}
 
