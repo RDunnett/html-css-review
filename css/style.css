@@ -29,5 +29,31 @@ body{
 #header{
     background-color: black;
 }
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    text-decoration: none;
+    color:#DEC9E9;
+
+}
+nav ul li a:hover,
+nav ul li a:focus{
+    color: #fff;
+}
+
+#hero{
+    height: 60vh;
+    background-color: #7251b5;
+    
+    background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 /* headings */
-font-family: 'Wix Madefor Display', sans-serif;
+/* font-family: 'Wix Madefor Display', sans-serif; */
