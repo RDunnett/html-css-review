@@ -3,33 +3,31 @@
 }
 
 body{
-    font-family: nunito;
+    font-family: 'Nunito Sans', sans-serif;
+    /*color: #fff;*/
     line-height: 1.5;
-    color: #fff;
+    margin: 0;
 }
 
-.team img{
-    filter: grayscale(100%);
-}
-h1{
-    text-shadow: 2px, 2px, 4px rgba(0, 0, 0, 0.5);
-}
-
-.wrapper {
+.wrapper{
     max-width: 1200px;
-    position:fixed;
+    margin: 0 auto;
+    padding: 0 2em;
 }
 
-.container{
-    position: relative;
-    text-align: center;
-    color: #fff;
+#company {
+    color: #DEC9E9;
+    font-size: 1.5rem;
 }
 
-.Scoopalicious{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: x-large ;
+#intro, 
+#fan-fave,
+#team{
+    padding: 4em 0;
 }
+
+#header{
+    background-color: black;
+}
+/* headings */
+font-family: 'Wix Madefor Display', sans-serif;
