@@ -23,7 +23,7 @@ body{
 #intro, 
 #fan-fave,
 #team{
-    padding: 4em 0;
+    padding: 4em 4em;
 }
 
 #header{
@@ -111,7 +111,37 @@ nav ul li a:focus{
 .team {
     display: grid;
     grid-template-columns: 1fr 1fr; 
+    gap: 1em;
+    margin-top: 2.5em;
 }
+
+.team article{
+    background-color: #6647a6;
+    border-radius: 20px;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.team article img{
+    width: 80px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+ .team article img:hover{
+    filter: none;
+    transition: transform .75s ease;
+    transform: scale(1.5);
+ }
+
+ .team h3{
+    text-transform: uppercase;
+ }
+
+ footer{
+    background-color: black;
+    text-align: center;
+    padding: 1em 0 ;
+ }
 
 /* headings */
 /* font-family: 'Wix Madefor Display', sans-serif; */
